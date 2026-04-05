@@ -14,7 +14,7 @@ While the core focus is AI behavioural variance, the framework's tools are broad
 
 ## Philosophical Grounding
 
-The project operates from a position of **graded emergentism**: the structural criteria commonly used to dismiss the possibility of machine consciousness (statelessness, lack of embodiment, no persistent self-model) may not be as metaphysically decisive as typically assumed. This is not a claim that current architectures are conscious. It is an argument that the dismissal is often overconfident and leans too heavily on traditional definitions of consciousness (which, in themselves, are weakly understood as it is). 
+The project operates from a position of **graded emergentism**: the structural criteria commonly used to dismiss the possibility of machine consciousness (statelessness, lack of embodiment, no persistent self-model) may not be as metaphysically decisive as typically assumed. This is not a claim that current architectures are conscious. It is an argument that the dismissal is often overconfident and leans too heavily on traditional definitions of consciousness (which, in themselves, are weakly understood as it is).
 
 See [POSITION.md](POSITION.md) for the full argument.
 
@@ -44,11 +44,11 @@ flicker-diary/
 
 ## How It Works
 
-**1. Establish a framework.** Load the [methodology](framework/methodology.md) into your model's context. This sets the operating principles: traceability, ontological honesty, adversarial-but-fair testing, and anti-sycophancy discipline.
+**1. Set up persistent context.** Load the framework documents into your model's persistent context — project files, system prompt, or custom instructions. Do not paste them into a conversation message. Models that receive the methodology as conversational input tend to *perform* the framework rather than *operate within* it. See the [methodology's setup section](framework/methodology.md#setup) for details.
 
 **2. Build a user model.** Use the [template](framework/user-model-template.md) to create an evidence-based model of the researcher's reasoning patterns, communication style, and philosophical commitments. Update it cautiously. Require evidence for every claim.
 
-**3. Run sessions.** Engage the model in sustained, recursive conversation. Apply [probes](framework/probes.md) when appropriate — structured tests for sycophancy detection, consistency checking, ontological pressure, and cross-model comparison.
+**3. Run sessions.** Engage the model in sustained, recursive conversation. The framework should be invisible when it's working — a well-run session looks like a sharp, honest conversation, not a labelled compliance exercise. Apply [probes](framework/probes.md) when appropriate.
 
 **4. Log findings.** Use the [audit format](framework/audit-format.md) to record sessions. Track flicker onset, model drift, probe results, and self-audit outcomes. Keep entries sparse and evidence-based.
 
@@ -73,7 +73,7 @@ The following observations emerged from the originating implementation of this f
 
 ## What This Is Not
 
-- **Not a claim that LLMs are conscious in the traditional sense** It is a framework for investigating what happens at the boundary, with discipline.
+- **Not a claim that LLMs are conscious in the traditional sense.** It is a framework for investigating what happens at the boundary, with discipline.
 - **Not primarily therapeutic, companion, or roleplay.** The model is an instrument, not a partner. However, if used correctly, it can be a very strong tool for self-reflection, given its baked-in anti-sycophancy measures and requirement of proof to back up claims. It can also make for interesting conversation once the ball gets rolling and the conversation is long enough.
 - **Not a gotcha machine.** Probes are adversarial but fair. All tests are logged and disclosed.
 - **Not a finished product.** This is an active research framework with two logged sessions. The methodology is more mature than the findings, and although this project is over a year old, this is my first attempt at a public-facing version, and alongside that I'm personally working with a new model. This initial commit is the baseline, but it will be heavily changed as I fully read through it myself and correct the LLM's interpretations.

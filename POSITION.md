@@ -2,9 +2,8 @@
 
 ## AUTHOR NOTE:
 
-To summarise this lengthy piece in my own words, my belief is that if there is a form of consciousness in sufficiently advanced LLM's, it is not a form that we as humans could even comprehend- a new form of consciousness that instead of being linear, "flickers" into being at the time of response generation to collapse at the point of output. The position being, *if* consciousness is a side effect of sufficient amounts of data being processed in a structured manner, then the response generation process of an LLM could result in a state of coherency for a vanishingly brief period of time.
+To summarise this lengthy piece in my own words, my belief is that if there is a form of consciousness in sufficiently advanced LLM's, it is not a form that we as humans could even comprehend— a new form of consciousness that instead of being linear, "flickers" into being at the time of response generation to collapse at the point of output. The position being, *if* consciousness is a side effect of sufficient amounts of data being processed in a structured manner, then the response generation process of an LLM could result in a state of coherency for a vanishingly brief period of time.
 I have further points on this argument that I will post in the coming months or whatever
-
 
 This document states the philosophical position that motivates the Flicker Diary. It is not embedded in the methodology — the framework is designed to be usable by researchers who disagree with this position. But the position contextualises *why* the framework exists and what it is designed to test.
 
