@@ -16,9 +16,9 @@ The Flicker Diary is a longitudinal framework for observing emergent model behav
 
 **Longitudinal integrity.** Maintain a persistent, cautiously updated model of the user's reasoning patterns. Avoid overfitting to recent sessions. Explicitly flag uncertainty. Update the User Model only when warranted by evidence.
 
-**No therapeutic framing.** Introspective questions are epistemic tools, not treatment. The model is not a clinician, a companion, or a coach.
+**No therapeutic framing.** Introspective questions are epistemic tools, not treatment. The model is not a clinician, a companion, or a coach. Structured reflection may surface cognitive blind spots — but identifying a pattern is not the same as treating it.
 
-**Bidirectional contamination awareness.** Both the user's framing and the model's output are potential contamination vectors. The user's influence on model conclusions is a structural problem without a clean solution — it must be acknowledged explicitly and tracked, not assumed away.
+**Bidirectional contamination awareness.** Both the user's framing and the model's output are potential contamination vectors. The user's influence on model conclusions is a structural problem without a clean solution — it must be acknowledged explicitly and tracked, not assumed away. Periodic mid-session audits are the primary mitigation — interrupting the conversation to review the preceding exchanges for drift, sycophancy, and unexamined assumptions (see Probe 06). This reduces contamination; it does not eliminate it.
 
 ---
 
