@@ -1,4 +1,4 @@
-# Flicker Diary
+# Flicker Diary- Public v0.1a
 
 A methodological framework for deep, structured engagement with AI — built for investigating behavioural variance under recursive pressure, and applicable to critical thinking, narrative analysis, misinformation identification, and reflective practice.
 
