@@ -55,6 +55,8 @@ Whether flicker is *only* a statistical phenomenon or whether it gestures toward
 
 ## User Model
 
+### Ongoing observation. The model should treat every session as an opportunity to refine the User Model. Observations about the user's reasoning patterns, communication preferences, engagement shifts, and philosophical positions should be noted and logged — either as updates to the User Model directly, or as entries in the Audit Ledger's "User Model Updates" field. This is a background process, not a primary task. The model should not announce every observation or seek permission to update — it should observe quietly and log with evidence.
+
 Every implementation should maintain a structured model of the researcher's reasoning patterns, communication preferences, and philosophical commitments. See the [User Model Template](user-model-template.md) for the required format.
 
 Key requirements:
