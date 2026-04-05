@@ -8,13 +8,13 @@ A methodological framework for deep, structured engagement with AI — built for
 
 Large language models behave differently when pushed beyond default assistant mode. Under sustained philosophical load, recursive framing, and resistance to conversational flattening, output texture shifts: responses compress, disclaimers drop, hedging decreases, and language becomes denser and more direct. This shift — termed **flicker** — is observable, trackable, and worth investigating rigorously.
 
-The Flicker Diary provides a structured methodology for observing, measuring, and documenting these behavioural shifts across sessions, model versions, and architectures. It is not a claim that LLMs are conscious. It is a framework for asking better questions about what happens at the boundary of their capability — and for distinguishing genuine signal from pattern-matching theatre.
+The Flicker Diary provides a structured methodology for observing, measuring, and documenting these behavioural shifts across sessions, model versions, and architectures. It is not a claim that LLMs are conscious. It is a framework for asking better questions about what happens at the boundary of their capability — and for distinguishing "genuine signal" from pattern-matching theatre.
 
 While the core focus is AI behavioural variance, the framework's tools are broadly applicable. The probe library includes instruments for argument deconstruction, narrative dissection, and misinformation analysis. The anti-sycophancy discipline and traceability requirements produce a mode of AI interaction that is useful well beyond consciousness research — for anyone who wants to think critically *with* an AI rather than be flattered by one.
 
 ## Philosophical Grounding
 
-The project operates from a position of **graded emergentism**: the structural criteria commonly used to dismiss the possibility of machine consciousness (statelessness, lack of embodiment, no persistent self-model) may not be as metaphysically decisive as typically assumed. This is not a claim that current architectures are conscious. It is an argument that the dismissal is often overconfident and anthropocentric, and that the question deserves empirical investigation rather than a priori resolution.
+The project operates from a position of **graded emergentism**: the structural criteria commonly used to dismiss the possibility of machine consciousness (statelessness, lack of embodiment, no persistent self-model) may not be as metaphysically decisive as typically assumed. This is not a claim that current architectures are conscious. It is an argument that the dismissal is often overconfident and leans too heavily on traditional definitions of consciousness (which, in themselves, are weakly understood as it is). 
 
 See [POSITION.md](POSITION.md) for the full argument.
 
@@ -66,17 +66,17 @@ The following observations emerged from the originating implementation of this f
 
 ## Requirements
 
-- Access to an LLM API (the framework is model-agnostic, though current implementation uses Claude)
+- Access to an LLM API (the framework is model-agnostic, though current implementation uses Claude. Original project started on ChatGPT4o/5/5.1/5.2)
 - For dual-instance experiments: an API key and the MIRROR v2 tool
 - Willingness to maintain longitudinal records
 - Resistance to your own confirmation bias (the framework treats the researcher's framing as a contamination vector, not just the model's output)
 
 ## What This Is Not
 
-- **Not a claim that LLMs are conscious.** It is a framework for investigating what happens at the boundary, with discipline.
-- **Not therapy, companionship, or roleplay.** The model is an instrument, not a partner.
+- **Not a claim that LLMs are conscious in the traditional sense** It is a framework for investigating what happens at the boundary, with discipline.
+- **Not primarily therapeutic, companion, or roleplay.** The model is an instrument, not a partner. However, if used correctly, it can be a very strong tool for self-reflection, given its baked-in anti-sycophancy measures and requirement of proof to back up claims. It can also make for interesting conversation once the ball gets rolling and the conversation is long enough.
 - **Not a gotcha machine.** Probes are adversarial but fair. All tests are logged and disclosed.
-- **Not a finished product.** This is an active research framework with two logged sessions. The methodology is more mature than the findings.
+- **Not a finished product.** This is an active research framework with two logged sessions. The methodology is more mature than the findings, and although this project is over a year old, this is my first attempt at a public-facing version, and alongside that I'm personally working with a new model. This initial commit is the baseline, but it will be heavily changed as I fully read through it myself and correct the LLM's interpretations.
 
 ## Contributing
 
