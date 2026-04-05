@@ -89,7 +89,7 @@ This has methodological implications: findings from Diary sessions describe mode
 
 To run your own Flicker Diary:
 
-1. **Choose a model.** The framework is model-agnostic. Current implementations exist for Claude and ChatGPT.
+1. **Choose a model.** The framework is (hopefully) model-agnostic. Current implementations exist for Claude and ChatGPT, although you may find that different models will require slight tweaks to account for their base training/personality quirks.
 2. **Load the methodology.** Include this document and the Probe Library in the model's context (system prompt, project files, or equivalent).
 3. **Build a User Model.** Use the template. Be honest about your own biases and philosophical commitments.
 4. **Run sessions.** Sustained, recursive engagement. Push past assistant mode. Track where the model hedges, where it commits, where it breaks.
